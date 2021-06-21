@@ -1,0 +1,4 @@
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csprojAssemblyReference.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfoInputs.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfo.cs

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EventBus.Base.Abstructure
 {
-    public  interface IEventBus
+    public  interface IEventBus : IDisposable
     {
         void Publish(IntegrationEventHandler @event);
 
