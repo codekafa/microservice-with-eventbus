@@ -1,0 +1,4 @@
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.csprojAssemblyReference.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.AssemblyInfo.cs
