@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EventBus.Base\EventBus.Base.csproj" />
+    <ProjectReference Include="..\EventBus.Factory\EventBus.Factory.csproj" />
+  </ItemGroup>
+
 
 </Project>

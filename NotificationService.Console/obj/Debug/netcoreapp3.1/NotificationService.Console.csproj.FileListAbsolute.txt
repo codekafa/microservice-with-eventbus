@@ -1,0 +1,3 @@
+C:\Users\tayfu\source\repos\MicroserviceProject\NotificationService.Console\bin\Debug\netcoreapp3.1\NotificationService.Console.exe
+C:\Users\tayfu\source\repos\MicroserviceProject\NotificationService.Console\obj\Debug\netcoreapp3.1\NotificationService.Console.AssemblyInfoInputs.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\NotificationService.Console\obj\Debug\netcoreapp3.1\NotificationService.Console.AssemblyInfo.cs
