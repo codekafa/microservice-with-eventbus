@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jsYl346YnvXzOHgwKktysNeoap6i+kt2iwuV+3feLftCRGH4w9rJqUr7+kb42bE4P/5Yn7/zbaXMh/qj5Pjf2Q==",
+  "dgSpecHash": "y9qk2MMcpysO50tJgcslD99Oq9DcI9H8QYPefjIjYNjfgrGGcP/pOw7DrzIgM3MyDFlSCopJxpoo2kd+dY8pbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\CatalogService.Api\\CatalogService.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tayfu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\tayfu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tayfu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\tayfu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\tayfu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\tayfu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
   "logs": []
 }

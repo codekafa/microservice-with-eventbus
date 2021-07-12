@@ -95,13 +95,6 @@ namespace EventBus.RabbitMQ
 
                 properties.DeliveryMode = 2;
 
-                consumeChannel.QueueDeclare(queue: GetSubName(eventName),
-
-                           durable: true,
-                           exclusive: false,
-                           autoDelete: false,
-                           arguments: null);
-
 
                 consumeChannel.BasicPublish(exchange: EventBusConfig.DefaultTopicName,
                     routingKey: eventName,

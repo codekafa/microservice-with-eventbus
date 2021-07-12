@@ -1,0 +1,14 @@
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\CatalogService.Api.exe
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\CatalogService.Api.csprojAssemblyReference.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\CatalogService.Api.AssemblyInfoInputs.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\CatalogService.Api.AssemblyInfo.cs
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\CatalogService.Api.RazorTargetAssemblyInfo.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\staticwebassets\CatalogService.Api.StaticWebAssets.Manifest.cache
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\staticwebassets\CatalogService.Api.StaticWebAssets.xml
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\obj\Debug\netcoreapp3.1\CatalogService.Api.csproj.CopyComplete
+C:\Users\tayfu\source\repos\MicroserviceProject\CatalogService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

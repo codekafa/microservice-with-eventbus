@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EventBus.Base;
+using EventBus.Base.Abstructure;
+using EventBus.Factory;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using PaymentService.Api.IntegrationEvents.Events;
+using PaymentService.Api.IntegrationEvents.Handlers;
 
 namespace PaymentService.Api
 {
@@ -26,6 +31,21 @@ namespace PaymentService.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddTransient<OrderStartedIntegrationEventHandler>();
+
+            services.AddSingleton<IEventBus>(sp =>
+            {
+                EventBusConfig config = new EventBusConfig
+                {
+                    ConnectionRetryCount = 5,
+                    EventBusType = EventBusType.RabbitMQ,
+                    EventNameSuffix = "IntegrationEvent",
+                    SubscribeClientAppName = "PaymentService"
+                };
+                return EventBusFactory.Create(config, sp);
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +66,11 @@ namespace PaymentService.Api
             {
                 endpoints.MapControllers();
             });
+
+
+            IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<OrderStartedEvent, OrderStartedIntegrationEventHandler>();
+
         }
     }
 }
