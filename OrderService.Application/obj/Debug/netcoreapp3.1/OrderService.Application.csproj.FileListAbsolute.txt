@@ -1,0 +1,9 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\bin\Debug\netcoreapp3.1\OrderService.Application.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\bin\Debug\netcoreapp3.1\OrderService.Application.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\bin\Debug\netcoreapp3.1\OrderService.Application.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\OrderService.Application\obj\Debug\netcoreapp3.1\OrderService.Application.pdb

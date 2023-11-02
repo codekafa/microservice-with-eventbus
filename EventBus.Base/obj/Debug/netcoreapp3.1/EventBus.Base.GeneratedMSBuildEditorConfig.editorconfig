@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventBus.Base
+build_property.ProjectDir = C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Base\

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "md61f2GmSN06H10DJitmHxEZkoqfaHSe2mQi87/Q796Y0il7S2/2t2fidUjWurFc+MbxwJnSrArt0wDOPSsBhQ==",
+  "dgSpecHash": "xL+4AkAtEY4BBwI6ggEOnjsZ+E0WLr1D48iKF1jtO7/s2/dbE7l3PJ+rAwjl6a+XTUw+EFslQMlgTTriYMbR7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\OrderService.Api\\OrderService.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\OrderService.Api\\OrderService.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

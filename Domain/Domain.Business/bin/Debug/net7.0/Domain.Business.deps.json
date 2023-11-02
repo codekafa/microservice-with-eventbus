@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Domain.Business/1.0.0": {
+        "dependencies": {
+          "Domain.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Business.dll": {}
+        }
+      },
+      "Domain.Dto/1.0.0": {
+        "runtime": {
+          "Domain.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

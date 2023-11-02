@@ -1,0 +1,15 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\bin\Debug\net7\Domain.Infrastructure.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\bin\Debug\net7\Domain.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\bin\Debug\net7\Domain.Infrastructure.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\bin\Debug\net7\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\bin\Debug\net7\Domain.Dto.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.csproj.CopyComplete
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\refint\Domain.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\Domain.Infrastructure.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Infrastructure\obj\Debug\net7\ref\Domain.Infrastructure.dll

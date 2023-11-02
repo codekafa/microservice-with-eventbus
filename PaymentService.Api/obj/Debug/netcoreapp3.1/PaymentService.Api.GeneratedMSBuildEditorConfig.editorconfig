@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = PaymentService.Api
+build_property.ProjectDir = C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\

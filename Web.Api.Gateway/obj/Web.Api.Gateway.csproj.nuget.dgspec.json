@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\Web.Api.Gateway\\Web.Api.Gateway.csproj": {}
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\Web.Api.Gateway\\Web.Api.Gateway.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
         "projectName": "Web.Api.Gateway",
-        "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
-        "packagesPath": "C:\\Users\\tayfu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\Web.Api.Gateway\\obj\\",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tayfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,14 +37,42 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.7.14.1, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[20.0.0, )"
+            },
+            "Ocelot.Provider.Consul": {
+              "target": "Package",
+              "version": "[20.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

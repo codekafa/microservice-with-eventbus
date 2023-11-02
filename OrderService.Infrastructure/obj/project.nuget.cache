@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G3LL8qTGCGS7XySQePpqBwSNN8O7zYTcBXhIGeuct9kk1m5G82UdmrOtDU7mG6hWU6tYhK/ZGJ3wSm3z9M+DGw==",
+  "dgSpecHash": "0eKslQ4QGeXT1OoB69Yj99c59xVMwgiux7OUKtKzXCqrmevMGSXIWlEDI2fbvNOwLt9XQgEGUhYLLwdr+Eppvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

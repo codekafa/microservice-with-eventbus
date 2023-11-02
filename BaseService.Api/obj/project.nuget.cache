@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "s5A4RHxiAoSQ7q6vTSdK/SrlPbigNe4BPsHLpEyGU6Wh9n4ROQrqPI4HVUQDAxdzSb222ynz3lI/LglfFd7Mlw==",
+  "dgSpecHash": "P8oFp72JYEy7mbX4KOMrzf7rJvdWLwAojcFdyDiVTzKmnqWMInpXmPGqHms+YlIRCGfSdmFZ3pd8DA0Q2J+BxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\BaseService.Api\\BasketService.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\BaseService.Api\\BasketService.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

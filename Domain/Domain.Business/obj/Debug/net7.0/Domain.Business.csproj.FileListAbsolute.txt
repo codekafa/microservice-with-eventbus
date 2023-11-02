@@ -1,0 +1,15 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Business.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Business.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Business.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Dto.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.csproj.CopyComplete
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\refint\Domain.Business.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\ref\Domain.Business.dll

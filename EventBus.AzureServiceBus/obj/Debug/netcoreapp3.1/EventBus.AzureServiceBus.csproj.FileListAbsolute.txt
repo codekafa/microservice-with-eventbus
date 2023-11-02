@@ -2,3 +2,16 @@ C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\bin\Deb
 C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csprojAssemblyReference.cache
 C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfoInputs.cache
 C:\Users\tayfu\source\repos\MicroserviceProject\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.csproj.CopyComplete
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.AzureServiceBus\obj\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb

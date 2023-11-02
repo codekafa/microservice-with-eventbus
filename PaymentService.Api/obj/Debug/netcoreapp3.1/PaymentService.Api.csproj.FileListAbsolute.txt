@@ -1,0 +1,6 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\PaymentService.Api\obj\Debug\netcoreapp3.1\PaymentService.Api.MvcApplicationPartsAssemblyInfo.cache

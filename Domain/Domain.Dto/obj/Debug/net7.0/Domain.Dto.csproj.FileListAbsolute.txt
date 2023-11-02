@@ -1,0 +1,11 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\bin\Debug\net7.0\Domain.Dto.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\bin\Debug\net7.0\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\bin\Debug\net7.0\Domain.Dto.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\refint\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\Domain.Dto.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Dto\obj\Debug\net7.0\ref\Domain.Dto.dll

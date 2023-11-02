@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Factory\\EventBus.Factory.csproj": {}
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
         "projectName": "EventBus.AzureServiceBus",
-        "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
-        "packagesPath": "C:\\Users\\tayfu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\obj\\",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tayfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj": {
-                "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj"
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
               }
             }
           }
@@ -46,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -62,36 +59,46 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj",
         "projectName": "EventBus.Base",
-        "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj",
-        "packagesPath": "C:\\Users\\tayfu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\obj\\",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tayfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -102,6 +109,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -113,6 +121,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
@@ -129,36 +138,46 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Factory\\EventBus.Factory.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Factory\\EventBus.Factory.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj",
         "projectName": "EventBus.Factory",
-        "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Factory\\EventBus.Factory.csproj",
-        "packagesPath": "C:\\Users\\tayfu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Factory\\obj\\",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tayfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -169,15 +188,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj": {
-                "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj"
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj"
               },
-              "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj": {
-                "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj"
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
               },
-              "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
-                "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj"
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj"
               }
             }
           }
@@ -190,42 +210,53 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
         "projectName": "EventBus.RabbitMQ",
-        "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
-        "packagesPath": "C:\\Users\\tayfu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.RabbitMQ\\obj\\",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tayfu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -236,9 +267,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj": {
-                "projectPath": "C:\\Users\\tayfu\\source\\repos\\MicroserviceProject\\EventBus.Base\\EventBus.Base.csproj"
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
               }
             }
           }
@@ -251,6 +283,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Polly": {
               "target": "Package",
@@ -267,16 +300,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

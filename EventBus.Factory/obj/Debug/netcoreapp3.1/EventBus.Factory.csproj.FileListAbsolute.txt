@@ -1,0 +1,17 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Factory.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.AzureServiceBus.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.csproj.CopyComplete
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Factory\obj\Debug\netcoreapp3.1\EventBus.Factory.pdb
