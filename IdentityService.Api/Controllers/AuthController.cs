@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Domain.Dto.IdentityService;
+﻿using Domain.Dto.IdentityService;
 using Domain.Infrastructure.IdentityService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
+
 
 namespace IdentityService.Api.Controllers
 {
@@ -26,9 +24,9 @@ namespace IdentityService.Api.Controllers
 
         [HttpPost]
         [Route("createtoken")]
-        public Task<TokenDto> CreateToken(LoginDto dto)
+        public async Task<TokenDto> CreateToken(LoginDto dto)
         {
-            return _authService.GetToken(dto);
+            return await  _authService.GetToken(dto);
         }
     }
 }

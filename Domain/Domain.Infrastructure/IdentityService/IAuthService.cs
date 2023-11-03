@@ -5,7 +5,7 @@ namespace Domain.Infrastructure.IdentityService
     public interface IAuthService
     {
 
-        public Task<TokenDto> GetToken(LoginDto login);
+        Task<TokenDto> GetToken(LoginDto login);
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Data.Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,6 +8,7 @@ using System.Linq;
 
 namespace CatalogService.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/catalog")]
     public class CatalogController : ControllerBase

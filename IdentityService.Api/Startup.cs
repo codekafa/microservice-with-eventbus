@@ -1,3 +1,5 @@
+using Domain.Business.IdentityService;
+using Domain.Infrastructure.IdentityService;
 using IdentityService.Api.Core.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,7 +19,6 @@ namespace IdentityService.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -29,9 +30,10 @@ namespace IdentityService.Api
 
             services.ConfigureConsul(Configuration);
 
-        }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            services.AddTransient<IAuthService, AuthService>();
+
+        }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

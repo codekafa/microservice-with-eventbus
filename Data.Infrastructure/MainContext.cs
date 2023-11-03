@@ -4,17 +4,18 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Reflection;
 
-public class CatalogContext : DbContext
+public class MainContext : DbContext
 {
-	public CatalogContext()
+	public MainContext()
 	{
 	}
 
+    public DbSet<User> User { get; set; }
     public DbSet<Brand> Brand { get; set; }
     public DbSet<Model> Model { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(CatalogContext)));
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(MainContext)));
         base.OnModelCreating(modelBuilder); 
     }
 }
