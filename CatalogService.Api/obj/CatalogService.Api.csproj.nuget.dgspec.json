@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj": {
                 "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj"
+              },
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj"
               }
             }
           }
@@ -47,6 +50,10 @@
             "Consul": {
               "target": "Package",
               "version": "[1.7.14.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -175,6 +182,129 @@
                 "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain.Base\\Data.Domain.Base.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj",
+        "projectName": "Domain.CQRS",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj"
+              },
+              "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
+                "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj",
+        "projectName": "Domain.Dto",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj",
+        "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

@@ -63,11 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Api", "Iden
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2D9D21B7-284F-4748-A7D4-E513AC2C3344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Dto", "Domain\Domain.Dto\Domain.Dto.csproj", "{5AFABD8F-A265-48EA-9E7B-D7F09504CF06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Dto", "Domain\Domain.Dto\Domain.Dto.csproj", "{5AFABD8F-A265-48EA-9E7B-D7F09504CF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Business", "Domain\Domain.Business\Domain.Business.csproj", "{4BBC155E-81F9-495E-B771-DEEAA4D2E252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Business", "Domain\Domain.Business\Domain.Business.csproj", "{4BBC155E-81F9-495E-B771-DEEAA4D2E252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Infrastructure", "Domain\Domain.Infrastructure\Domain.Infrastructure.csproj", "{151389FA-C53F-4096-9F0B-E645E140AE4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Infrastructure", "Domain\Domain.Infrastructure\Domain.Infrastructure.csproj", "{151389FA-C53F-4096-9F0B-E645E140AE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.CQRS", "Domain.CQRS\Domain.CQRS.csproj", "{2DD5BA11-C549-4C46-9A0C-F233B93BAE37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,10 @@ Global
 		{151389FA-C53F-4096-9F0B-E645E140AE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151389FA-C53F-4096-9F0B-E645E140AE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151389FA-C53F-4096-9F0B-E645E140AE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD5BA11-C549-4C46-9A0C-F233B93BAE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD5BA11-C549-4C46-9A0C-F233B93BAE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD5BA11-C549-4C46-9A0C-F233B93BAE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD5BA11-C549-4C46-9A0C-F233B93BAE37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +169,7 @@ Global
 		{5AFABD8F-A265-48EA-9E7B-D7F09504CF06} = {2D9D21B7-284F-4748-A7D4-E513AC2C3344}
 		{4BBC155E-81F9-495E-B771-DEEAA4D2E252} = {2D9D21B7-284F-4748-A7D4-E513AC2C3344}
 		{151389FA-C53F-4096-9F0B-E645E140AE4C} = {2D9D21B7-284F-4748-A7D4-E513AC2C3344}
+		{2DD5BA11-C549-4C46-9A0C-F233B93BAE37} = {2D9D21B7-284F-4748-A7D4-E513AC2C3344}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {799A6E69-80A3-4824-97B5-1F6F61B38451}

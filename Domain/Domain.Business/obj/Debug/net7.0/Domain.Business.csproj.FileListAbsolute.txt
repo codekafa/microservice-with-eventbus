@@ -13,3 +13,5 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Bu
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\refint\Domain.Business.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\Domain.Business.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\obj\Debug\net7.0\ref\Domain.Business.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain\Domain.Business\bin\Debug\net7.0\Domain.Infrastructure.pdb

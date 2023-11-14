@@ -36,3 +36,14 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\obj\Debug\net7.0\IdentityService.Api.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\obj\Debug\net7.0\IdentityService.Api.genruntimeconfig.cache
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\obj\Debug\net7.0\ref\IdentityService.Api.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.Business.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.Business.pdb

@@ -1,10 +1,14 @@
 ﻿using Data.Domain;
+using Domain.CQRS.Catalog.Queries.Request;
+using Domain.CQRS.Catalog.Queries.Response;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CatalogService.Api.Controllers
 {
@@ -13,46 +17,21 @@ namespace CatalogService.Api.Controllers
     [Route("api/catalog")]
     public class CatalogController : ControllerBase
     {
-        private static readonly string[] Brands = new[]
-        {
-            "Opel", "Wolkswagen", "Mercedes", "Bmw", "Tofaş", "Fiat", "Kia", "Honda", "Renault", "Mazda"
-        };
 
         private readonly ILogger<CatalogController> _logger;
+        private readonly IMediator _mediator;
 
-        public CatalogController(ILogger<CatalogController> logger)
+        public CatalogController(ILogger<CatalogController> logger,IMediator mediator)
         {
             _logger = logger;
+            _mediator = mediator;
         }
 
         [HttpGet]
         [Route("getbrands")]
-        public IEnumerable<Brand> GetBrands()
+        public Task<GetBrandListResponse> GetBrands()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new Brand
-            {
-                CreateDate = DateTime.Now.AddDays(index),
-                Id = rng.Next(-20, 55),
-                BrandName = Brands[rng.Next(Brands.Length)]
-            })
-            .ToArray();
+            return _mediator.Send(new GetBrandListRequest());
         }
-
-        [HttpGet]
-        [Route("getmodels/{brandId}")]
-        public IEnumerable<Model> GetModels(long brandId)
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new Model
-            {
-                CreateDate = DateTime.Now.AddDays(index),
-                Id = rng.Next(-20, 55),
-                ModelName = Brands[rng.Next(Brands.Length)],
-                BrandId = index
-            })
-            .ToArray();
-        }
-
     }
 }

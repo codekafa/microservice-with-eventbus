@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.Domain\Data.Domain.csproj" />
+    <ProjectReference Include="..\Domain\Domain.Dto\Domain.Dto.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Identity\Handlers\QueryHandlers\" />
+    <Folder Include="Identity\Queries\Response\" />
+    <Folder Include="Identity\Queries\Request\" />
+  </ItemGroup>
+
+</Project>

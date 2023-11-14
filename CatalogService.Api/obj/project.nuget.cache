@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "GxPElVqR/Qjc97BGDej2ijpV/bxfouvXFsU1CgfW6C7TiHg0mI3q5gCJCjhC8vul6sydR8N0k9bBl19w+NjxEA==",
+  "dgSpecHash": "SOB9qVobMEHU2ZfIx0vJ7sD8UqvfI81IIKNZz8Sq5Zi7v77LbfkcZ9DEieX79xI2QkaLqfGzJ7NFYzFHx40DFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\CatalogService.Api\\CatalogService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\consul\\1.7.14.1\\consul.1.7.14.1.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.13\\microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",

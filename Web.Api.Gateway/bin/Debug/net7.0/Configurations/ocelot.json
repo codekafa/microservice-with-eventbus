@@ -29,7 +29,7 @@
       //}
     },
     {
-      "DownstreamPathTemplate": "/api/identity/{everything}",
+      "DownstreamPathTemplate": "/api/auth/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -38,7 +38,7 @@
         }
       ],
 
-      "UpstreamPathTemplate": "/identity/{everything}",
+      "UpstreamPathTemplate": "/auth/{everything}",
       "UpstreamScheme": "http",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
       //"LoadBalancerOptions": {

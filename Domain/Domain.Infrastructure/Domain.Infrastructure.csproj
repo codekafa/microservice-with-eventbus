@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Domain.Dto\Domain.Dto.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CatalogService\" />
+    <Folder Include="IdentityService\" />
+  </ItemGroup>
+
 </Project>

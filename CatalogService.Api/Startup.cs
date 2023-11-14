@@ -42,6 +42,8 @@ namespace CatalogService.Api
             //add jwt token validation
             services.AuthConfiguration(Configuration);
 
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Startup>());
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IHostApplicationLifetime lifetime)

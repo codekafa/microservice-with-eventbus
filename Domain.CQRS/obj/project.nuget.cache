@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mY6nWY+9hekZPNAfjKshvld86NNDh+lbhE0BAcXu2Q7NHcN9ryUrH1wmOAXvdv+tO1kD3/eIDXj1mIZwWum0+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

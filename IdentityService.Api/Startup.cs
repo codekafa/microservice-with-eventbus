@@ -1,5 +1,3 @@
-using Domain.Business.IdentityService;
-using Domain.Infrastructure.IdentityService;
 using IdentityService.Api.Core.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,9 +28,7 @@ namespace IdentityService.Api
 
             services.ConfigureConsul(Configuration);
 
-
-            services.AddTransient<IAuthService, AuthService>();
-
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Startup>());
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
