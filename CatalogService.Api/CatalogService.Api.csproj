@@ -22,6 +22,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Data.Domain\Data.Domain.csproj" />
     <ProjectReference Include="..\Domain.CQRS\Domain.CQRS.csproj" />
+    <ProjectReference Include="..\EventBus.Base\EventBus.Base.csproj" />
+    <ProjectReference Include="..\EventBus.Factory\EventBus.Factory.csproj" />
   </ItemGroup>
 
 

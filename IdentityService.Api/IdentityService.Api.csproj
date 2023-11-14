@@ -19,6 +19,8 @@
     <ProjectReference Include="..\Domain\Domain.Business\Domain.Business.csproj" />
     <ProjectReference Include="..\Domain\Domain.Dto\Domain.Dto.csproj" />
     <ProjectReference Include="..\Domain\Domain.Infrastructure\Domain.Infrastructure.csproj" />
+    <ProjectReference Include="..\EventBus.Base\EventBus.Base.csproj" />
+    <ProjectReference Include="..\EventBus.Factory\EventBus.Factory.csproj" />
   </ItemGroup>
 
 

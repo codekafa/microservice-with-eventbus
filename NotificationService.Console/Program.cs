@@ -2,9 +2,7 @@
 using EventBus.Base.Abstructure;
 using EventBus.Factory;
 using Microsoft.Extensions.DependencyInjection;
-using NotificationService.Console.IntegrationEvents.Events;
-using NotificationService.Console.IntegrationEvents.Handlers;
-using System;
+using NotificationService.Console.Events.Handlers;
 
 namespace NotificationService.Console
 {
@@ -12,13 +10,8 @@ namespace NotificationService.Console
     {
         static void Main(string[] args)
         {
-
-
             ServiceCollection services = new ServiceCollection();
-
-
-            services.AddTransient<OrderFailedIntegrationEventHandler>();
-            services.AddTransient<OrderSuccessIntegrationEventHandler>();
+            services.AddTransient<IntegrationEventHandlers>();
 
             services.AddSingleton<IEventBus>(sp =>
             {
@@ -27,20 +20,17 @@ namespace NotificationService.Console
                     ConnectionRetryCount = 5,
                     EventBusType = EventBusType.RabbitMQ,
                     EventNameSuffix = "IntegrationEvent",
-                    SubscribeClientAppName = "NotificationService"
+                    SubscribeClientAppName = "NotificationService",
+                    EventBusConnectionString = "http://localhost:5672/"
                 };
                 return EventBusFactory.Create(config, sp);
             });
 
 
-
-
             var sp = services.BuildServiceProvider();
 
             IEventBus eventBus = sp.GetRequiredService<IEventBus>();
-            eventBus.Subscribe<OrderSuccessEvent, OrderSuccessIntegrationEventHandler>();
-            eventBus.Subscribe<OrderFailedEvent, OrderFailedIntegrationEventHandler>();
-
+            eventBus.Subscribe<UserLoginIntegrationEvent, IntegrationEventHandlers>();
 
         }
     }

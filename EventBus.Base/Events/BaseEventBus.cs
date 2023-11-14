@@ -29,10 +29,10 @@ namespace EventBus.Base.Events
         public virtual string ProcessEventName(string eventName)
         {
             if (EventBusConfig.DeleteEventPrefix)
-                eventName = eventName.TrimStart(EventBusConfig.EventNamePrefix.ToArray());
+                eventName = eventName.Replace(EventBusConfig.EventNamePrefix,"");
 
             if (EventBusConfig.DeleteEventSuffix)
-                eventName = eventName.TrimEnd(EventBusConfig.EventNameSuffix.ToArray());
+                eventName = eventName.Replace(EventBusConfig.EventNameSuffix,"");
 
             return eventName;
         }

@@ -19,9 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Identity\Handlers\QueryHandlers\" />
     <Folder Include="Identity\Queries\Response\" />
-    <Folder Include="Identity\Queries\Request\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GD8TUIY9Bp2sh20nNj25E63X9T1X4rGn10QeWKwigsUEUOOExtUeypF+Y+vkWXdnjIJm3UnS2vuhXPsZhs1FIw==",
+  "dgSpecHash": "cpF5rrKzFH0+mCMMs07NJD7Zs6vpDapl460FDtsByFTEzZrCZYSwyyag8dQfgmBre03aoRbRZDrx8j7ncsFHew==",
   "success": true,
   "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\NotificationService.Console\\NotificationService.Console.csproj",
   "expectedPackageFiles": [
@@ -107,11 +107,7 @@
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

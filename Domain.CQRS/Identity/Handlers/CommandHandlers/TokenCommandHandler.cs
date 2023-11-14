@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 
 namespace Domain.CQRS.Identity.Handlers.CommandHandlers
 {
-    public class TokenCommandHandler : IRequestHandler<CreateTokenRequest, TokenDto>
+    public class TokenQueryHandler : IRequestHandler<CreateTokenRequest, TokenDto>
     {
         IConfiguration _configuration;
-        public TokenCommandHandler(IConfiguration configuration)
+        public TokenQueryHandler(IConfiguration configuration)
         {
             _configuration = configuration;
         }

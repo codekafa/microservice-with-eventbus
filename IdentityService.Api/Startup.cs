@@ -1,5 +1,10 @@
 using Domain.CQRS.Identity.Commands.Request;
+using EventBus.Base;
+using EventBus.Base.Abstructure;
+using EventBus.Factory;
 using IdentityService.Api.Core.Extensions;
+using IdentityService.Api.Events.Handlers;
+using IdentityService.Api.Events.IntegrationEvents;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,7 +28,6 @@ namespace IdentityService.Api
         {
             services.AddControllers();
 
-
             // add swagger
             services.AddSwaggerGen(c =>
             {
@@ -38,6 +42,12 @@ namespace IdentityService.Api
 
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<CreateTokenRequest>());
 
+            services.AddTransient<IntegrationEventHandlers>();
+
+
+            services.AddEventBus(Configuration);
+
+         
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime)
@@ -46,20 +56,14 @@ namespace IdentityService.Api
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("v1/swagger.json", "Api Identity v1"));
-
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
             app.RegisterWithConsul(lifetime);
-
         }
     }
 }

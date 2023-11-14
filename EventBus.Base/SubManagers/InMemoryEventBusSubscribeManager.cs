@@ -48,9 +48,9 @@ namespace EventBus.Base.SubManagers
         {
 
 
-            if (HasSubscribeForEvent(eventName))
+            if (!HasSubscribeForEvent(eventName))
                 _handlers.Add(eventName, new List<SubscribeInfo>());
-            if (_handlers[eventName].Any(s => s.HandlerType == handlerType))
+            if (_handlers.ContainsKey(eventName) && _handlers[eventName].Any(s => s.HandlerType == handlerType))
                 throw new Exception("Already registred!");
 
             _handlers[eventName].Add(SubscribeInfo.Typed(handlerType));

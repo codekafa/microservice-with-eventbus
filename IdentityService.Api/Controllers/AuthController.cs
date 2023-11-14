@@ -1,6 +1,8 @@
 ﻿using Domain.CQRS.Identity.Commands.Request;
 using Domain.CQRS.Identity.Commands.Response;
+using Domain.CQRS.Identity.Queries.Request;
 using Domain.Dto.IdentityService;
+using IdentityService.Api.Core.Filters;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -28,6 +30,15 @@ namespace IdentityService.Api.Controllers
         public async Task<TokenDto> CreateToken(LoginDto dto)
         {
             return await _mediator.Send<TokenDto>(new CreateTokenRequest( dto.UserName, dto.Password));
+        }
+
+       
+        [AuthFilter]
+        [Route("getuser")]
+        public async Task<UserDto> GetUser()
+        {
+            var token = HttpContext.Request.Headers["Authorization"].ToString();
+            return await _mediator.Send<UserDto>(new GetCurrentUserQuery(token));
         }
     }
 }

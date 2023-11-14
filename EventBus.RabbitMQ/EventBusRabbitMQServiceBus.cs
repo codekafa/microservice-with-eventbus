@@ -35,6 +35,8 @@ namespace EventBus.RabbitMQ
             else
             {
                 factory = new ConnectionFactory();
+                factory.UserName = "user";
+                factory.Password = "bitnami";
             }
 
             pCon = new RabbitMQPersistentConnection(factory, eventBusConfig.ConnectionRetryCount);
