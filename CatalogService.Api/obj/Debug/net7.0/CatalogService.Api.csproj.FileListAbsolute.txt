@@ -44,3 +44,10 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.A
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\MediatR.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.CQRS.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.Dto.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.CQRS.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.Dto.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\JWT.dll

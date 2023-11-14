@@ -53,7 +53,7 @@ namespace IdentityService.Api.Core.Extensions
                 Name = "IdentityService",
                 Address = $"{uri.Host}",
                 Port = uri.Port,
-                Tags = new[] { "Identity Service", "Catalog" }
+                Tags = new[] { "Identity Service", "Identity" }
             };
 
             logger.LogInformation("Registration with consul for identity service");

@@ -11,13 +11,9 @@ namespace CatalogService.Api
         {
             CreateHostBuilder(args).Run();
         }
-
         public static IWebHost CreateHostBuilder(string[] args)
         {
             return  WebHost.CreateDefaultBuilder(args).UseStartup<Startup>().UseContentRoot(Directory.GetCurrentDirectory()).Build();
         }
     }
-
-
-    
 }

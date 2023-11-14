@@ -1,10 +1,10 @@
-﻿using Domain.CQRS.Identity.Commands.Response;
+﻿using Domain.Dto.IdentityService;
 using MediatR;
 
 namespace Domain.CQRS.Identity.Commands.Request
 {
 
-    public class CreateTokenRequest : IRequest<CreateTokenResponse>
+    public class CreateTokenRequest : IRequest<TokenDto>
     {
         private string _userName;
         private string _password;
@@ -13,5 +13,9 @@ namespace Domain.CQRS.Identity.Commands.Request
             _userName = userName;
             _password = password;
         }
+
+        public string UserName { get { return _userName; } }
+
+        public string Password { get { return _password; } }
     }
 }

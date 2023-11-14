@@ -3,6 +3,5 @@
     public class CreateBrandResponse
     {
         public int BrandID { get; set; }
-
     }
 }

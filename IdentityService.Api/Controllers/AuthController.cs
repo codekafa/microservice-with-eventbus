@@ -25,9 +25,9 @@ namespace IdentityService.Api.Controllers
 
         [HttpPost]
         [Route("createtoken")]
-        public async Task<CreateTokenResponse> CreateToken(LoginDto dto)
+        public async Task<TokenDto> CreateToken(LoginDto dto)
         {
-            return await _mediator.Send<CreateTokenResponse>(new CreateTokenRequest( dto.UserName, dto.Password));
+            return await _mediator.Send<TokenDto>(new CreateTokenRequest( dto.UserName, dto.Password));
         }
     }
 }

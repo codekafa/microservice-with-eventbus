@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[1.7.14.1, )"
             },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[20.0.0, )"

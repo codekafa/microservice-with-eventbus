@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="Consul" Version="1.7.14.1" />
+    <PackageReference Include="JWT" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
     <PackageReference Include="Ocelot" Version="20.0.0" />
     <PackageReference Include="Ocelot.Provider.Consul" Version="20.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />

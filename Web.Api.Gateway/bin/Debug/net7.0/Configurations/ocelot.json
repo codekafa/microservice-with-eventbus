@@ -11,18 +11,23 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/catalog/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "UseServiceDiscovery": true,
       "ServiceName": "CatalogService",
+      "RateLimitOptions": {
+        "DisableRateLimitHeaders": false,
+        "QuotaExceededMessage": "Customize Tips!",
+        "HttpStatusCode": 999,
+        "ClientIdHeader": "catalog-2023"
+      },
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 5004
         }
       ],
-
       "UpstreamPathTemplate": "/catalog/{everything}",
-      "UpstreamScheme": "http",
+      "UpstreamScheme": "https",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
       //"LoadBalancerOptions": {
       //  "Type": "RoundRobin"
@@ -30,7 +35,13 @@
     },
     {
       "DownstreamPathTemplate": "/api/auth/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
+      "RateLimitOptions": {
+        "DisableRateLimitHeaders": false,
+        "QuotaExceededMessage": "Customize Tips!",
+        "HttpStatusCode": 999,
+        "ClientIdHeader": "identity-2023"
+      },
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -39,7 +50,7 @@
       ],
 
       "UpstreamPathTemplate": "/auth/{everything}",
-      "UpstreamScheme": "http",
+      "UpstreamScheme": "https",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
       //"LoadBalancerOptions": {
       //  "Type": "RoundRobin"

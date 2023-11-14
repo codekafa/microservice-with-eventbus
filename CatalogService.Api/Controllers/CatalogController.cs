@@ -1,18 +1,15 @@
-﻿using Data.Domain;
+﻿using CatalogService.Api.Core.Filters;
 using Domain.CQRS.Catalog.Queries.Request;
 using Domain.CQRS.Catalog.Queries.Response;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CatalogService.Api.Controllers
 {
-    [Authorize]
+    [AuthFilter]
     [ApiController]
     [Route("api/catalog")]
     public class CatalogController : ControllerBase

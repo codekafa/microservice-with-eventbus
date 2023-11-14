@@ -42,3 +42,11 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\obj\Debug\net7.0\Web.Api.Gateway.csproj.CopyComplete
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Consul.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Ocelot.Provider.Consul.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\JWT.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Web.Api.Gateway\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

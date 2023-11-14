@@ -47,3 +47,12 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.Business.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.Business.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\MediatR.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Data.Domain.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.CQRS.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Domain.CQRS.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Data.Domain.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\Data.Domain.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\IdentityService.Api\bin\Debug\net7.0\JWT.dll

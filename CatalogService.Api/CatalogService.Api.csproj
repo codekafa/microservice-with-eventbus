@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Core\Domain\" />
+    <Folder Include="Core\Middlewares\" />
   </ItemGroup>
 
   <ItemGroup>

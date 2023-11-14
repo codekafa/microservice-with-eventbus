@@ -1,36 +1,51 @@
 ﻿using Domain.CQRS.Identity.Commands.Request;
 using Domain.CQRS.Identity.Commands.Response;
+using Domain.Dto.IdentityService;
 using MediatR;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Domain.CQRS.Identity.Handlers.CommandHandlers
 {
-    public class TokenCommandHandler : IRequestHandler<CreateTokenRequest, CreateTokenResponse>
+    public class TokenCommandHandler : IRequestHandler<CreateTokenRequest, TokenDto>
     {
-        public async Task<CreateTokenResponse> Handle(CreateTokenRequest request, CancellationToken cancellationToken)
+        IConfiguration _configuration;
+        public TokenCommandHandler(IConfiguration configuration)
         {
-            //var claims = new[] {
-            //            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            //            new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-            //            new Claim("UserName", getLogin.UserName),
-            //            new Claim("UserID", new Random().Next(9999,99999).ToString()),
-            //        };
+            _configuration = configuration;
+        }
+        public async Task<TokenDto> Handle(CreateTokenRequest request, CancellationToken cancellationToken)
+        {
+            var claims = new[] {
+                        new Claim("UserName", request.UserName),
+                        new Claim("UserID", new Random().Next(9999,99999).ToString()),
+                    };
 
-            //var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
-            //var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            //var token = new JwtSecurityToken(
-            //    _configuration["Jwt:Issuer"],
-            //    _configuration["Jwt:Audience"],
-            //    claims,
-            //    expires: DateTime.UtcNow.AddMinutes(30),
-            //    signingCredentials: signIn);
+            string baseKey = _configuration["Jwt:SecretKey"];
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(baseKey));
+            var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            //var tokenDto = new TokenDto();
-            //tokenDto.Token = new JwtSecurityTokenHandler().WriteToken(token);
-            //tokenDto.ExpireDate = DateTime.UtcNow.AddMinutes(30);
+            var issuer = _configuration["Jwt:Issuer"];
+            var audience = _configuration["Jwt:Audience"];
 
-            return new CreateTokenResponse();
+            var expirationTimeStamp = DateTime.Now.AddMinutes(30);
+
+            var token = new JwtSecurityToken(
+             issuer: "https://localhost:5004",
+             claims: claims,
+             expires: expirationTimeStamp,
+             signingCredentials: signIn
+         );
+
+            var tokenDto = new TokenDto();
+            tokenDto.Token = new JwtSecurityTokenHandler().WriteToken(token);
+            tokenDto.ExpireDate = DateTime.UtcNow.AddMinutes(30);
+
+            return tokenDto;
         }
     }
 }

@@ -1,3 +1,4 @@
+using Domain.CQRS.Identity.Commands.Request;
 using IdentityService.Api.Core.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,27 +18,34 @@ namespace IdentityService.Api
 
         public IConfiguration Configuration { get; }
 
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
 
+
+            // add swagger
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Identity API", Version = "v1" });
             });
 
+            //add consul registration
             services.ConfigureConsul(Configuration);
 
-            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Startup>());
-        }
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            //add jwt token validation
+            services.AuthConfiguration(Configuration);
 
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<CreateTokenRequest>());
+
+        }
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime)
+        {
+
+            app.UseDeveloperExceptionPage();
             app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("v1/swagger.json", "Api Identity v1"));
 
             app.UseHttpsRedirection();
 
@@ -49,6 +57,9 @@ namespace IdentityService.Api
             {
                 endpoints.MapControllers();
             });
+
+            app.RegisterWithConsul(lifetime);
+
         }
     }
 }
