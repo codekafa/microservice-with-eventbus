@@ -1,8 +1,8 @@
-﻿using EventBus.Base.Abstructure;
+﻿using Domain.Events.IntegrationEvents;
+using EventBus.Base.Abstructure;
 using EventBus.Base.Events;
-using System.Threading.Tasks;
 
-namespace NotificationService.Console.Events.Handlers
+namespace Domain.Events.Handlers
 {
     public class IntegrationEventHandlers : IIntegrationEventHandler<UserLoginIntegrationEvent>
     {

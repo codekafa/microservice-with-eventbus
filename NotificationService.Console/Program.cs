@@ -1,8 +1,9 @@
-﻿using EventBus.Base;
+﻿using Domain.Events.Handlers;
+using Domain.Events.IntegrationEvents;
+using EventBus.Base;
 using EventBus.Base.Abstructure;
 using EventBus.Factory;
 using Microsoft.Extensions.DependencyInjection;
-using NotificationService.Console.Events.Handlers;
 
 namespace NotificationService.Console
 {

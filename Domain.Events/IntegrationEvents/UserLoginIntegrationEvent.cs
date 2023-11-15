@@ -1,7 +1,6 @@
 ﻿using EventBus.Base.Events;
-using System;
 
-namespace NotificationService.Console.Events.Handlers
+namespace Domain.Events.IntegrationEvents
 {
     public class UserLoginIntegrationEvent : IntegrationEvent
     {

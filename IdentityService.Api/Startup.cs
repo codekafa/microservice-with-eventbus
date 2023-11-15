@@ -1,10 +1,6 @@
 using Domain.CQRS.Identity.Commands.Request;
-using EventBus.Base;
-using EventBus.Base.Abstructure;
-using EventBus.Factory;
+using Domain.Events.Handlers;
 using IdentityService.Api.Core.Extensions;
-using IdentityService.Api.Events.Handlers;
-using IdentityService.Api.Events.IntegrationEvents;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -44,10 +40,8 @@ namespace IdentityService.Api
 
             services.AddTransient<IntegrationEventHandlers>();
 
-
             services.AddEventBus(Configuration);
-
-         
+  
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime)
