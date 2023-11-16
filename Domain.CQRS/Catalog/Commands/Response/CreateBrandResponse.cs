@@ -2,6 +2,6 @@
 {
     public class CreateBrandResponse
     {
-        public int BrandID { get; set; }
+        public long BrandId{ get; set; }
     }
 }

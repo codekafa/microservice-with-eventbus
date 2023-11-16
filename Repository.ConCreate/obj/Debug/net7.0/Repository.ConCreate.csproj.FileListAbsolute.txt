@@ -1,0 +1,11 @@
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\bin\Debug\net7.0\Repository.ConCreate.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\bin\Debug\net7.0\Repository.ConCreate.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\bin\Debug\net7.0\Repository.ConCreate.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\refint\Repository.ConCreate.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\Repository.ConCreate.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.ConCreate\obj\Debug\net7.0\ref\Repository.ConCreate.dll

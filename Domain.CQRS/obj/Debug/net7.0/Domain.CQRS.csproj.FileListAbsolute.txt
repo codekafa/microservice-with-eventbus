@@ -17,3 +17,7 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\obj\
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\obj\Debug\net7.0\refint\Domain.CQRS.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\obj\Debug\net7.0\Domain.CQRS.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\obj\Debug\net7.0\ref\Domain.CQRS.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\bin\Debug\net7.0\Data.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\bin\Debug\net7.0\Repository.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\bin\Debug\net7.0\Repository.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Domain.CQRS\bin\Debug\net7.0\Data.Infrastructure.pdb

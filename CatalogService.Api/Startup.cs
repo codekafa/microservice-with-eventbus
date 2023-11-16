@@ -1,5 +1,6 @@
 using CatalogService.Api.Core.Extensions;
 using Domain.CQRS.Catalog.Queries.Request;
+using Domain.Mapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -43,6 +44,12 @@ namespace CatalogService.Api
             // add mediatr requests and commands
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<GetBrandListRequest>());
 
+
+            //add redis
+            services.AddSingleton(sp => sp.ConfigureRedis(Configuration));
+
+            //add auto mapper
+            services.AddAutoMapper(typeof(CatalogMappingProfile));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IHostApplicationLifetime lifetime)

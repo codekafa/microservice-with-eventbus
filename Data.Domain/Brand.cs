@@ -6,7 +6,10 @@ namespace Data.Domain
     public class Brand : BaseEntity
     {
         [MaxLength(200)]
-        public string BrandName { get; set; }
+        public string Name { get; set; }
+
+        [MaxLength(500)]
+        public string Description { get; set; }
 
     }
 }

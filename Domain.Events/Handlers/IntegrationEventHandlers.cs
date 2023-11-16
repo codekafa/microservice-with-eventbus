@@ -10,8 +10,6 @@ namespace Domain.Events.Handlers
         {
             //todo result
 
-            string a = "";
-
             return Task.CompletedTask;
         }
     }

@@ -9,6 +9,7 @@
     <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
@@ -22,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Data.Domain\Data.Domain.csproj" />
     <ProjectReference Include="..\Domain.CQRS\Domain.CQRS.csproj" />
+    <ProjectReference Include="..\Domain.Mapper\Domain.Mapper.csproj" />
     <ProjectReference Include="..\EventBus.Base\EventBus.Base.csproj" />
     <ProjectReference Include="..\EventBus.Factory\EventBus.Factory.csproj" />
   </ItemGroup>

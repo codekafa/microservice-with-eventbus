@@ -10,9 +10,9 @@ public class MainContext : DbContext
 	{
 	}
 
-    public DbSet<User> User { get; set; }
-    public DbSet<Brand> Brand { get; set; }
-    public DbSet<Model> Model { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Brand> Brands { get; set; }
+    public DbSet<Model> Models { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(MainContext)));

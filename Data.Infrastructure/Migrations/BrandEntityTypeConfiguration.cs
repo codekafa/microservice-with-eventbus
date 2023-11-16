@@ -10,7 +10,8 @@ namespace Data.Infrastructure.Migrations
         {
             builder.ToTable("Brands");
             builder.HasKey(x => x.Id);
-            builder.Property(x=> x.BrandName).IsRequired().HasMaxLength(200);
+            builder.Property(x=> x.Name).IsRequired().HasMaxLength(200);
+            builder.Property(x => x.Description).HasMaxLength(500);
         }
     }
 }

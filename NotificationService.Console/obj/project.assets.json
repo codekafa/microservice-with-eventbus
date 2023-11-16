@@ -1885,6 +1885,29 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Data.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Data.Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Data.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.Domain.dll": {}
+        }
+      },
+      "Data.Domain.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Data.Domain.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.Domain.Base.dll": {}
+        }
+      },
       "Domain.Dto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1893,6 +1916,21 @@
         },
         "runtime": {
           "bin/placeholder/Domain.Dto.dll": {}
+        }
+      },
+      "Domain.Events/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Data.Domain": "1.0.0",
+          "Domain.Dto": "1.0.0",
+          "EventBus.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Events.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Events.dll": {}
         }
       },
       "EventBus.AzureServiceBus/1.0.0": {
@@ -6309,10 +6347,25 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Data.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Data.Domain/Data.Domain.csproj",
+      "msbuildProject": "../Data.Domain/Data.Domain.csproj"
+    },
+    "Data.Domain.Base/1.0.0": {
+      "type": "project",
+      "path": "../Data.Domain.Base/Data.Domain.Base.csproj",
+      "msbuildProject": "../Data.Domain.Base/Data.Domain.Base.csproj"
+    },
     "Domain.Dto/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.Dto/Domain.Dto.csproj",
       "msbuildProject": "../Domain/Domain.Dto/Domain.Dto.csproj"
+    },
+    "Domain.Events/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Events/Domain.Events.csproj",
+      "msbuildProject": "../Domain.Events/Domain.Events.csproj"
     },
     "EventBus.AzureServiceBus/1.0.0": {
       "type": "project",
@@ -6338,6 +6391,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Domain.Dto >= 1.0.0",
+      "Domain.Events >= 1.0.0",
       "EventBus.Base >= 1.0.0",
       "EventBus.Factory >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.1"
@@ -6360,7 +6414,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "Net7.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6368,8 +6422,11 @@
       },
       "frameworks": {
         "net7.0": {
-          "targetAlias": "Net7.0",
+          "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj"
+            },
             "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
               "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
             },
@@ -6390,7 +6447,7 @@
     },
     "frameworks": {
       "net7.0": {
-        "targetAlias": "Net7.0",
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",

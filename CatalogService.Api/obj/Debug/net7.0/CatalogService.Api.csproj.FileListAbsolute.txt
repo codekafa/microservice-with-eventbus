@@ -66,3 +66,16 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.A
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\EventBus.Factory.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\EventBus.AzureServiceBus.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\EventBus.RabbitMQ.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Data.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Repository.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Data.Infrastructure.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Repository.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.Mapper.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\CatalogService.Api\bin\Debug\net7.0\Domain.Mapper.pdb

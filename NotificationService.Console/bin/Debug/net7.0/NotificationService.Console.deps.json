@@ -9,6 +9,7 @@
       "NotificationService.Console/1.0.0": {
         "dependencies": {
           "Domain.Dto": "1.0.0",
+          "Domain.Events": "1.0.0",
           "EventBus.Base": "1.0.0",
           "EventBus.Factory": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.1"
@@ -1042,9 +1043,32 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Data.Domain/1.0.0": {
+        "dependencies": {
+          "Data.Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Data.Domain.dll": {}
+        }
+      },
+      "Data.Domain.Base/1.0.0": {
+        "runtime": {
+          "Data.Domain.Base.dll": {}
+        }
+      },
       "Domain.Dto/1.0.0": {
         "runtime": {
           "Domain.Dto.dll": {}
+        }
+      },
+      "Domain.Events/1.0.0": {
+        "dependencies": {
+          "Data.Domain": "1.0.0",
+          "Domain.Dto": "1.0.0",
+          "EventBus.Base": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Events.dll": {}
         }
       },
       "EventBus.AzureServiceBus/1.0.0": {
@@ -1822,7 +1846,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Data.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data.Domain.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Domain.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Events/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

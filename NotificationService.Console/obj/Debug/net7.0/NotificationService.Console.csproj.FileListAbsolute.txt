@@ -39,3 +39,9 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationServ
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\obj\Debug\net7.0\NotificationService.Console.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\obj\Debug\net7.0\NotificationService.Console.genruntimeconfig.cache
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\obj\Debug\net7.0\ref\NotificationService.Console.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Domain.Events.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Domain.Events.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Data.Domain.dll
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Data.Domain.pdb
+C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\NotificationService.Console\bin\Debug\net7.0\Data.Domain.Base.pdb

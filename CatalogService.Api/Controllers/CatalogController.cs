@@ -1,8 +1,8 @@
 ﻿using CatalogService.Api.Core.Filters;
 using Domain.CQRS.Catalog.Queries.Request;
 using Domain.CQRS.Catalog.Queries.Response;
+using Domain.Dto.CatalogService;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
@@ -22,6 +22,13 @@ namespace CatalogService.Api.Controllers
         {
             _logger = logger;
             _mediator = mediator;
+        }
+
+        [HttpPost]
+        [Route("createbrand")]
+        public Task<GetBrandListResponse> CreateBrand([FromBody] CreateBrandDto brandDto)
+        {
+            return _mediator.Send(new GetBrandListRequest());
         }
 
         [HttpGet]
