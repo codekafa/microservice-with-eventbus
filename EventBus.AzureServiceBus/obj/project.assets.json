@@ -6132,11 +6132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
+      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
       "projectName": "EventBus.AzureServiceBus",
-      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
+      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
       "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\obj\\",
+      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.AzureServiceBus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6153,8 +6153,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
             }
           }
         }
@@ -6208,7 +6208,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

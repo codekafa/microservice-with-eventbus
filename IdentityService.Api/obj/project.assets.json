@@ -7570,11 +7570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
       "projectName": "IdentityService.Api",
-      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
+      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
       "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\IdentityService.Api\\obj\\",
+      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\IdentityService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7591,26 +7591,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.CQRS\\Domain.CQRS.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Events\\Domain.Events.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Business\\Domain.Business.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Business\\Domain.Business.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Business\\Domain.Business.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Business\\Domain.Business.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Infrastructure\\Domain.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Infrastructure\\Domain.Infrastructure.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Infrastructure\\Domain.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Infrastructure\\Domain.Infrastructure.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Factory\\EventBus.Factory.csproj"
             }
           }
         }
@@ -7677,8 +7677,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

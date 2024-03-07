@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/xdslNMazr5KLuHq1RyfFv9QQq4rBoALQlHFgXVEgz7rmV/pO+yD4ECK7B2DNX9lJliO/VsbOI3lsmSylP+zQ==",
+  "dgSpecHash": "KXjDy/YqgQNBIk9ux0AfK//znxNKMgF74xt9yKp9QEQvqZmDJ5uRXK4hnv0DMMEYOFMMxWMnoAH6Tq7ivRCLeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.Base\\Repository.Base.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.Base\\Repository.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",

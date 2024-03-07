@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bJiEMG8SP6ElbBkEWcMHOtksVk58HMiSnGfjqzWUVgNgl6esAodFibR0cDPNWb4cytqh7ZA5LdLnXYTwZRqJow==",
+  "dgSpecHash": "WHbZANQAHlgDuVhFUTLFyWLyvOntA3tiLlvQKB9rS8hLv7KMUYXJdGwo/zydZuYM5SqDuN6iAQtpbDgbGxrZ9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\IdentityService.Api\\IdentityService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\consul\\1.7.14.1\\consul.1.7.14.1.nupkg.sha512",
@@ -136,5 +136,26 @@
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

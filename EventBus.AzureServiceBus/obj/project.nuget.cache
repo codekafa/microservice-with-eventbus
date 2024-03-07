@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "actHfakQ9slFOZTkIuFhQzeu8kQaxTtGgbKSwVanO8FJB1p8/EfgUArYNk4M51IGBBRDxEki3jwMciY47eTf0g==",
+  "dgSpecHash": "BoK74AcNdTYfVGDJDyoqCRQaa5SQnaT3IDQgVfH2//OLzQ26hrIKLEiCNmF6ZmGHqw6LSicf3/zh9zzUmni8Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.AzureServiceBus\\EventBus.AzureServiceBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.azure.amqp\\2.4.11\\microsoft.azure.amqp.2.4.11.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.azure.servicebus\\5.1.3\\microsoft.azure.servicebus.5.1.3.nupkg.sha512",

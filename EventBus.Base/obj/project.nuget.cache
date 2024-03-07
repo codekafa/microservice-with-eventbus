@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8YyAl9VfjafdWElRPQP3AdL4la4SaOiZy5H55AuDBKptytEePBx/UG1C3TbIMNMSuRYYwkpqJf9biPietOiUfw==",
+  "dgSpecHash": "9bbR/eq+9joWH/FIaCrIqZ7WwBH9dhUITMDmun9bUzukWg4kssp4ZNzKRqpltneVNIWZAM6VjJuwErHS5sWKdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.Base\\EventBus.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
