@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DAUutzo5BpG+rwnL5DZjuHarIuma6Zpg0twd5/50Xc9DNk3ACnV2dln9mDz6OLkf8wAn76BGNVbqTWuWv7dYcg==",
+  "dgSpecHash": "NPguqdZzWgf0XH2r7HMYyRe9nXShUQ85KGLORP7xeQxwmDxxtg/cmYznv/d8wKPHwk+gzwFiw9z1MuyyobH1VA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Web.Api.Gateway\\Web.Api.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\consul\\1.7.14.1\\consul.1.7.14.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",

@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
+      "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
       "projectName": "Domain.Mapper",
-      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
+      "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
       "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Mapper\\obj\\",
+      "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Mapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -389,11 +389,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Data.Domain\\Data.Domain.csproj"
             },
-            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
-              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
+            "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj": {
+              "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj"
             }
           }
         }
@@ -433,7 +433,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

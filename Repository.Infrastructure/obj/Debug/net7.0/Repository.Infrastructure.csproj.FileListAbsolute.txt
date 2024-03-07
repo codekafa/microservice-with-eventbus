@@ -9,3 +9,15 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.Infra
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\refint\Repository.Infrastructure.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\ref\Repository.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\bin\Debug\net7.0\Repository.Infrastructure.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\bin\Debug\net7.0\Repository.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\bin\Debug\net7.0\Repository.Infrastructure.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.sourcelink.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\refint\Repository.Infrastructure.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\Repository.Infrastructure.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Repository.Infrastructure\obj\Debug\net7.0\ref\Repository.Infrastructure.dll

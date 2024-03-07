@@ -13,3 +13,14 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Base\ob
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.csproj.CoreCompileInputs.cache
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\bin\Debug\netcoreapp3.1\EventBus.Base.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.sourcelink.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.Base\obj\Debug\netcoreapp3.1\EventBus.Base.pdb

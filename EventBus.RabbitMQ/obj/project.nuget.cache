@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ovR7JdUE2G+emYWiezxuuOdSnL8gMvPDEowFuAjFLKKXYN4N98ummydTNSVwtjk2yXFLZVWrv9BG6IBDTU0MPQ==",
+  "dgSpecHash": "6xFXZ8YURdOrgkH6O2j3KB5BW2F978xWoic0qE75Yz/Sr6mw2yKI9+5ZjXNcNFMgWdxPlS/IxJOxJU3VlGAf3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\EventBus.RabbitMQ\\EventBus.RabbitMQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

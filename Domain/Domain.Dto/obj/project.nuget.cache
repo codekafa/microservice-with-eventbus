@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yA4RLCK5Fk10xT0YbPyJ2GJAKq9NQd99OTQUQlRuq05zOHKQJWzkq7uzQPWsbjrXsw8NGHwyIp2OK1myh3s8gQ==",
+  "dgSpecHash": "d0Km0JSkg1p/zS4HL1ZpBf6N0xFULgfN92Sn0TlgKaT36jZCwWh3GMmce5FZdzs6qAh1DSifEUYHXsK+F1ixDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain\\Domain.Dto\\Domain.Dto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj": {}
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj": {
+    "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
+        "projectUniqueName": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
         "projectName": "Repository.ConCreate",
-        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
+        "projectPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
         "packagesPath": "C:\\Users\\TayfunKoç\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\obj\\",
+        "outputPath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TayfunKoç\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
