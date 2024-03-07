@@ -20,6 +20,8 @@ public class MainContext : DbContext
     }
 }
 
+// ufak birşey
+
 // tayfun geliştirme
 
 //tayfun 2
