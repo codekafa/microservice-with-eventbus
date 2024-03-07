@@ -19,3 +19,5 @@ public class MainContext : DbContext
         base.OnModelCreating(modelBuilder); 
     }
 }
+
+// tayfun geliştirme
