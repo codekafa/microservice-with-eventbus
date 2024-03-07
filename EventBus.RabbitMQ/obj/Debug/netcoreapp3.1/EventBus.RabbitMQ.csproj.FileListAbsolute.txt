@@ -15,3 +15,17 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.RabbitM
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.csproj.CopyComplete
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\bin\Debug\netcoreapp3.1\EventBus.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.csproj.AssemblyReference.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.sourcelink.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.csproj.CopyComplete
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\EventBus.RabbitMQ\obj\Debug\netcoreapp3.1\EventBus.RabbitMQ.pdb

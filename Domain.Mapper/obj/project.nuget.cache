@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AX1l3oknDM4WJ1nBDAjWl7pSNzQ2f0WxGMaDlLY+PrTYzfuL+quqGMJarY8NuzxqUGQBgb20QAv5YwPXwAxF8A==",
+  "dgSpecHash": "7k0FOp4Ph3EWG8MUfrmA4zMNCgKevuxg0ybACSBk+Mz5E2RWjedcFqOoP0y++rQdP9Vgvo0c+sBBS6s307yKgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Domain.Mapper\\Domain.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

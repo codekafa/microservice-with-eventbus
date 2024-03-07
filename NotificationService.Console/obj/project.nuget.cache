@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ve7CZYGb/c3MVxMzy9Snw1Jo/QusEjH25K0YsYaEhVjDw53S7MVOR6Gogkc9bQilR42EEOHaktMfblX9+YxJjw==",
+  "dgSpecHash": "eO5q7teNY2PvnupPKE0H4bjqt+/O+ml8RxS2kwrLkJBYnRDAkoMEtt5ZAF0SZnNuo79uWY7mH+YlLkTwmA+h3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\NotificationService.Console\\NotificationService.Console.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\NotificationService.Console\\NotificationService.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.azure.amqp\\2.4.11\\microsoft.azure.amqp.2.4.11.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.azure.servicebus\\5.1.3\\microsoft.azure.servicebus.5.1.3.nupkg.sha512",

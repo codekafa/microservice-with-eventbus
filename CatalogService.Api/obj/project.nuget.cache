@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSeyM5DpQQKHtxC6RDnhIoM3x2fvXbvuXhYrPm/PjOgQDtAVXKQ79EXDcLyyWM8WQaqGOz4H0W4pvDUsxqf+GQ==",
+  "dgSpecHash": "5MKmBksnt5y6u7gtq+Wb89y8EkKGmEQv9LUyjEtFEj5WJbMdJFdInEYdUewRID95b9x+GqHtTfB9JjXMZs6vGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\CatalogService.Api\\CatalogService.Api.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\CatalogService.Api\\CatalogService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -139,5 +139,16 @@
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Swashbuckle.AspNetCore.SwaggerUI' 6.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qrmm-w75w-3wpx",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

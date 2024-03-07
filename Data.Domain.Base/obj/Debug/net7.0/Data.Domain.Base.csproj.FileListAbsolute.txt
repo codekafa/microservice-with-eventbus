@@ -9,3 +9,15 @@ C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Data.Domain.Base
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\refint\Data.Domain.Base.dll
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.pdb
 C:\Users\TayfunKoç\Desktop\Projects\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\ref\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\bin\Debug\net7.0\Data.Domain.Base.deps.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\bin\Debug\net7.0\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\bin\Debug\net7.0\Data.Domain.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.AssemblyInfoInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.AssemblyInfo.cs
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.csproj.CoreCompileInputs.cache
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.sourcelink.json
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\refint\Data.Domain.Base.dll
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\Data.Domain.Base.pdb
+C:\Users\TayfunKoç\Desktop\Projects\test\microservice-with-eventbus\Data.Domain.Base\obj\Debug\net7.0\ref\Data.Domain.Base.dll

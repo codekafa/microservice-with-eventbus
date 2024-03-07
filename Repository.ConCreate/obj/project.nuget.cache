@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4MjujiqBmObROxUOQUliytcSM+jQpYwFL2ZNuBfWQgPdhS2bzfmSL6ytbMErC4Tv3BxHEafLcIKNgeSBBW6t8Q==",
+  "dgSpecHash": "eSrdh3Z1RUzNpK11WbZfHlU/h0HxdUWLCQV2+gWRyaZMMaeAUSE+YimLCCI/fLFhWzx32nMlzE+wdiFynICw3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.ConCreate\\Repository.ConCreate.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

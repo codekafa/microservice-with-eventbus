@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A6OqX/dICyp8VyuHYX5asEgROwgBNL7/pM9v+wjzm23EDfOPlUkuF6Js+XXmsbStFfk5U7/Bppx9U8foa+Imkw==",
+  "dgSpecHash": "ecnfEt4/AC5qeMoj+nhNMcmGPeepECU1ECyUWiQtiJtYq4bnZOLptiHCKmcNs7/gWasP5U97QGJ6HZdtjOIFVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Data.Infrastructure\\Data.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Data.Infrastructure\\Data.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\TayfunKoç\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

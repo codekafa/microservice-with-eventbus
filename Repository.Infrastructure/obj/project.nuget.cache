@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L9r7dsaKU5FjJz2u8c+43tWDiHpDQ/QtnmqQMNWtzSt1RvkFgOUgqMDyAqYYkd/98J7VZZ+IXt3bHbJtPGYbLg==",
+  "dgSpecHash": "NrVRaIK4G6cFXUqzBHhgXclMfjqelVJCPhFtzFq4wiBugm5gKq16gq9dXZeRnd8z8pdAkLP4FujoctspWhoQTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\microservice-with-eventbus\\Repository.Infrastructure\\Repository.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\TayfunKoç\\Desktop\\Projects\\test\\microservice-with-eventbus\\Repository.Infrastructure\\Repository.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
