@@ -46,6 +46,8 @@ namespace Domain.CQRS.Identity.Handlers.QueryHandlers
             {
                 return new UserDto { UserName = "", UserID = "" };
             }
+
+            //hotfix2
         }
     }
 }
