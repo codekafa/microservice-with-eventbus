@@ -28,6 +28,8 @@ namespace NotificationService.Console
             });
 
 
+            //hasine 1 geliştirme
+
             var sp = services.BuildServiceProvider();
 
             IEventBus eventBus = sp.GetRequiredService<IEventBus>();

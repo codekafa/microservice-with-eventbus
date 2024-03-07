@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventBus.Factory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6490ba707877b27d33c869e340f8914cb88787a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventBus.Factory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventBus.Factory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
