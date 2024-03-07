@@ -13,6 +13,7 @@ namespace Domain.CQRS.Identity.Commands.Request
             _userName = userName;
             _password = password;
         }
+        // hasine 3
 
         public string UserName { get { return _userName; } }
 
